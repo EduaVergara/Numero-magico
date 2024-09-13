@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El número mágico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="inicio" class="contenedor">
+        <h1>Bienvenido al juego del número mágico</h1>
+        <button id="btnEmpezar" class="boton-grande">Empezar a jugar</button>
+    </div>
+
+    <div id="juego" class="contenedor" style="display:none;">
+        <h2>El número mágico</h2>
+        <p>Intentos: <span id="intentos">0</span></p>
+        <input id="numeroInput" class="input-numero" placeholder="Ingresa el número que crees">
+        <button id="adivinarBtn" class="boton-pequeno">Adivinar</button>
+        <button id="reset" class="boton-reset">Resetear</button>
+        <p><span id="numerosIntentados"></span></p>
+        <p><span id="pista"></span></p>
+        <p><span id="resultado"></span></p>
+        <p><span id="mensajeError"></span></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #17477b, #7c17b7);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+h1,
+h2 {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+input.input-numero {
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: hidden;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.boton-grande {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boton-grande:hover {
+    background-color: #45a049;
+}
+
+.boton-pequeno {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boton-pequeno:hover {
+    background-color: #1976D2;
+}
+
+
+.boton-reset {
+
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boton-reset:hover {
+    background-color: #1976D2;
+}
+
+/* Responsive para dispositivos móviles */
+@media (max-width: 600px) {
+    .contenedor {
+        width: 90%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
